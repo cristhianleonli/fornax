@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14295.6" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="landscape">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14270.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Righteous-Regular.ttf">
+            <string>Righteous-Regular</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YCO-h6-MF1">
+                                <rect key="frame" x="0.0" y="325" width="667" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="Rqq-tK-eIw"/>
+                                </constraints>
+                                <string key="text">© 2018 Cristhian León. Todos los derechos reservados.
+Fornax, los personajes, logos e imágenes son elementos registrados.</string>
+                                <fontDescription key="fontDescription" name="Righteous-Regular" family="Righteous" pointSize="13"/>
+                                <color key="textColor" red="0.7686274509803922" green="0.51372549019607838" blue="0.074509803921568626" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="groot_games" translatesAutoresizingMaskIntoConstraints="NO" id="HrD-yv-Pgy">
+                                <rect key="frame" x="233.5" y="87.5" width="200" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="Y0R-41-s0g"/>
+                                    <constraint firstAttribute="width" constant="200" id="zYd-3e-Gy9"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="HrD-yv-Pgy" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="G5s-xz-eYI"/>
+                            <constraint firstItem="YCO-h6-MF1" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="TEe-zX-3DB"/>
+                            <constraint firstItem="YCO-h6-MF1" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="jw6-2L-KSH"/>
+                            <constraint firstItem="HrD-yv-Pgy" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="sQf-bK-Xhq"/>
+                            <constraint firstItem="YCO-h6-MF1" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="zzT-4D-UhG"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="51.724137931034484" y="373.60000000000002"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="groot_games" width="200" height="200"/>
+    </resources>
+</document>
